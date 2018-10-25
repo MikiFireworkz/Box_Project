@@ -1,0 +1,28 @@
+// Set up vertex data (and buffer(s)) and attribute pointers
+//GLfloat vertices[] =
+//{
+//	// Positions         
+//	0.0f, 0.0f, 1.0f,   -1.0f, 0.0f, 0.0f,   -0.5f,  1.0f, 0.0f,  // Bottom Right
+//	-1.0f, 0.0f, 0.0f,  -0.5f,  1.0f, 0.0f,   0.0f, 0.0f, 1.0f,  // Bottom Left
+//	-0.5f,  1.0f, 0.0f,   0.0f, 0.0f, 1.0f, -1.0f, 0.0f, 0.0f,   // Top
+
+//	1.0f, 0.0f, 0.0f,   0.0f, 0.0f, 1.0f,   0.5f,  1.0f, 0.0f,  // Bottom Right
+//	0.0f, 0.0f, 1.0f,   0.5f,  1.0f, 0.0f,   1.0f, 0.0f, 0.0f, // Bottom Left
+//	0.5f,  1.0f, 0.0f,   1.0f, 0.0f, 0.0f,  0.0f, 0.0f, 1.0f, // Top
+
+//	0.5f, 1.0f, 0.0f,   -0.5f, 1.0f, 0.0f,   0.0f, 0.0f, 1.0f, // Bottom Right
+//	-0.5f, 1.0f, 0.0f,  0.0f,  0.0f, 1.0f,   0.5f, 1.0f, 0.0f,// Bottom Left
+//	0.0f,  0.0f, 1.0f,  0.5f, 1.0f, 0.0f,   -0.5f, 1.0f, 0.0f, // Top
+
+//	0.0f, 0.0f, 1.0f,   -1.0f, 0.0f, 0.0f,   -0.5f, -1.0f, 0.0f,// Bottom Right
+//	-1.0f, 0.0f, 0.0f,  -0.5f, -1.0f, 0.0f,   0.0f, 0.0f, 1.0f,// Bottom Left
+//	-0.5f, -1.0f, 0.0f,  0.0f, 0.0f, 1.0f,  -1.0f, 0.0f, 0.0f, // Top
+
+//	1.0f, 0.0f, 0.0f,   0.0f, 0.0f, 1.0f,  0.5f, -1.0f, 0.0f,// Bottom Right
+//	0.0f, 0.0f, 1.0f,   0.5f, -1.0f, 0.0f,  1.0f, 0.0f, 0.0f,// Bottom Left
+//	0.5f, -1.0f, 0.0f,  1.0f, 0.0f, 0.0f,   0.0f, 0.0f, 1.0f,// Top
+
+//	0.5f, -1.0f, 0.0f,   -0.5f, -1.0f, 0.0f,  0.0f,  0.0f, 1.0f,// Bottom Right
+//	-0.5f, -1.0f, 0.0f,  0.0f,  0.0f, 1.0f,  0.5f, -1.0f, 0.0f,// Bottom Left
+//	0.0f,  0.0f, 1.0f,  0.5f, -1.0f, 0.0f,   -0.5f, -1.0f, 0.0f// Top
+//};
