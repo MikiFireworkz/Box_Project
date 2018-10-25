@@ -84,13 +84,12 @@ int main()
 	//Define Components
 	Shader shader("res\\shaders\\object.vert", "res\\shaders\\object.frag");
 	Mesh mesh("res\\mesh\\box.csv");
-	Texture texture1("res\\texture\\image4.jpg");
+	Texture texture1("res\\texture\\image2.png");
 	Texture texture2("res\\texture\\cloud.png");
-	Texture texture3("res\\texture\\image3.png");
 	// Create Object
 	world.CreateObject(&shader, &mesh, &texture1);
 	world.CreateObject(&shader, &mesh, &texture2, glm::vec3(15.0f, 0.0f, 0.0f), glm::vec3(45.0f, 0.0f, 0.0f), glm::vec3(5.0f, 10.0f, 15.0f));
-	world.CreateObject(&shader, &mesh, &texture3, glm::vec3(0.0f, 0.0f, -10.0f), glm::vec3(45.0f, 45.0f, 45.0f), glm::vec3(5.0f, 5.0f, 5.0f));
+	world.CreateObject(&shader, &mesh, &texture1, glm::vec3(0.0f, 0.0f, -10.0f), glm::vec3(45.0f, 45.0f, 45.0f), glm::vec3(5.0f, 5.0f, 5.0f));
 
 	// OpenGL options
 	glEnable(GL_DEPTH_TEST);
