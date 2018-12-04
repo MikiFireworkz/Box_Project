@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{B5BACEEA-E862-4E27-BA51-91CCA9A23926}</ProjectGuid>
     <RootNamespace>OpenGLBoxProject</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,11 +129,13 @@
     <ClCompile Include="SOIL2\SOIL2.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Box_Project.hpp" />
     <ClInclude Include="Camera.hpp" />
-    <ClInclude Include="InputComponet.hpp" />
+    <ClInclude Include="InputProcessor.hpp" />
     <ClInclude Include="Light.hpp" />
     <ClInclude Include="Mesh.hpp" />
     <ClInclude Include="Object.hpp" />
+    <ClInclude Include="ResourceManeger.hpp" />
     <ClInclude Include="Shader.hpp" />
     <ClInclude Include="SOIL2\etc1_utils.h" />
     <ClInclude Include="SOIL2\image_DXT.h" />
@@ -154,6 +156,7 @@
     <ClInclude Include="SOIL2\stb_image_write.h" />
     <ClInclude Include="Texture.hpp" />
     <ClInclude Include="Time.hpp" />
+    <ClInclude Include="WindowManeger.hpp" />
     <ClInclude Include="World.hpp" />
   </ItemGroup>
   <ItemGroup>

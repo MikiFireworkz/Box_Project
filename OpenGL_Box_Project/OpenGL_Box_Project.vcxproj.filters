@@ -110,10 +110,19 @@
     <ClInclude Include="SOIL2\stbi_pvr_c.h">
       <Filter>Resource Files\SOIL2</Filter>
     </ClInclude>
-    <ClInclude Include="InputComponet.hpp">
+    <ClInclude Include="Time.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Time.hpp">
+    <ClInclude Include="InputProcessor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManeger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManeger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box_Project.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
